@@ -3,7 +3,7 @@ return {
   enabled = vim.fn.has "win32" == 0,
   dependencies = {
     {
-      "jay-babu/mason-nvim-dap.nvim",
+      "AmitSharmamad/mason-nvim-dap.nvim",
       dependencies = { "nvim-dap" },
       cmd = { "DapInstall", "DapUninstall" },
       opts = { handlers = {} },
